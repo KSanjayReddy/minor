@@ -24,13 +24,13 @@ def on_message(client, userdata, message):
 	elif x=="right":
 		var = 'd'
 		ser.write(bytes(var.encode('ascii')))
-	elif x=="a":
+	elif x=="light":
 		var = 'e'
 		ser.write(bytes(var.encode('ascii')))
-	elif x=="b":
+	elif x=="buzz":
 		var = 'f'
 		ser.write(bytes(var.encode('ascii')))
-	elif x=="c":
+	elif x=="angle":
 		var = 'g'
 		ser.write(bytes(var.encode('ascii')))
 
